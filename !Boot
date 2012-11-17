@@ -1,0 +1,13 @@
+Set Dummy$Path <Obey$Dir>.Resources.
+Run Dummy:ResFind NameMap
+Unset Dummy$Path
+|
+|
+Set NameMap$Help <NameMap$Dir>.!Help
+Set NameMap$Version "1.05"
+Set NameMap$Web "http://www.arcsite.de/hp/bracke/programming/mtools.html"
+Set NameMap$Title "NameMap"
+Set NameMap$Publisher "Bent Bracke"
+Set NameMap$Description "NameMapper scans a directory for ada sourcefiles (both body and specifications) and creates the file gnat.adc containing a pragma Source_File_Name for every file with a name longer than 10 characters."
+|
+Iconsprites <NameMap$Dir>.!Sprites
