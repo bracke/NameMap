@@ -3,7 +3,7 @@ NameMapper scans a directory for ada sourcefiles (both body and specifications) 
 
 Why is that useful ? Well, the current RISCOS port of GNAT (The GNU Ada translator) can only handle filenames up to 10 characters long. Supplying the file with those pragma statements gets arround that limitation and namemap will do the tedious work of creating those files. This can save a lot of time when porting large aplications.
 
-NOTE: This is a RISC OS app.
+NOTE: This is a RISC OS app and will not work on other platforms.
 
 ## Frontend use
  
